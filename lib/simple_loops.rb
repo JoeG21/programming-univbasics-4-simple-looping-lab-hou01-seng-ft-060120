@@ -10,6 +10,7 @@ end
 def loop_message_n_times(string, integer)
   while integer < string.length do 
     puts string[integer]
+    integer += 1
   end
 end
 
